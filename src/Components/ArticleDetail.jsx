@@ -24,7 +24,7 @@ const ArticleDetail = () => {
                         <div className='para1'>{ele.data}</div>
                         <div className='para1'></div>  
                       </div>
-
+                      <h2 style={{marginLeft:"10%"}}>Related articles</h2>
                       <div className='related_articles'>
                           <div style={{marginLeft:"200px"}} className='rel_article_list'>
                             <img style={{width:"250px",height:"150px"}} src={article.data_obj[2].image} alt="" />
